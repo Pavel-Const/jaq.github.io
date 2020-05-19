@@ -1,0 +1,15 @@
+.button__disabled {
+  background-color: black;
+  border: 1px solid black;
+  color: rgba(226, 218, 218, 0.63);
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  display: block;
+  cursor: pointer;
+  
+}
+
+.button:focus {
+  outline-color: greenyellow;
+}

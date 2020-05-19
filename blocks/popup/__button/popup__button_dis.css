@@ -1,0 +1,12 @@
+@import url(../__button/_small/popup__button_small.css);
+
+
+
+.popup__button_dis {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  margin-top: 48px;
+  color: #FFFFFF;
+  font-size: 36px;
+}
