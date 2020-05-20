@@ -1,1 +1,1 @@
-# https://Pavel-Const.github.io/jaq.github.io
+https://Pavel-Const.github.io/jaq.github.io
