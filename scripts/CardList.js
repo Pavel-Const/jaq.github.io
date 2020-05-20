@@ -1,4 +1,4 @@
-class Cardlist {
+export class Cardlist {
   constructor(domelem, array) {
     this.domelem = domelem;
     this.array = array;
