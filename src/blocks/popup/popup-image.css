@@ -2,7 +2,6 @@
 @import url(./__close/popup__close.css);
 @import url(./_is-opened/popup_is-opened.css);
 
-
 .popup-image {
   position: fixed;
   top: 0;
@@ -13,4 +12,5 @@
   align-items: center;
   justify-content: center;
   display: none;
+  background-color: rgba(0, 0, 0, 0.5);
 }

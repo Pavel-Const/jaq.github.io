@@ -1,3 +1,11 @@
+import "./style.css";
+
+import { Api } from "./scripts/Api";
+import { Card } from "./scripts/Card";
+import { Cardlist } from "./scripts/CardList";
+import { FormValidator } from "./scripts/FormValidator";
+import { Popup } from "./scripts/Popup";
+import { UserInfo } from "./scripts/UserInfo";
 (function () {
   const container = document.querySelector(".root");
   const containerCard = container.querySelector(".places-list");

@@ -1,4 +1,4 @@
-class FormValidator {
+export class FormValidator {
   constructor(form) {
     this.form = form;
     this.inputs = Array.from(this.form.querySelectorAll("input"));
