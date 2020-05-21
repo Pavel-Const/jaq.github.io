@@ -27,5 +27,4 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
     "webpack-md5-hash": "0.0.6"
-    
-    Инструкция для развертывания
+
