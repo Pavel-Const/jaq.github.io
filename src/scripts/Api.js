@@ -8,7 +8,7 @@ export class Api {
 
   getInitialCards() {
     return (
-      fetch("https://praktikum.tk/cohort10/cards", {
+      fetch("https://nomoreparties.co/cohort10/cards", {
         headers: {
           authorization: "18dbabcb-4ed2-42c4-b8c7-108cd4642ac8",
         },
@@ -27,7 +27,7 @@ export class Api {
 
   getInfoUser() {
     return (
-      fetch("https://praktikum.tk/cohort10/users/me", {
+      fetch("https://nomoreparties.co/cohort10/users/me", {
         method: "GET",
         headers: {
           authorization: "18dbabcb-4ed2-42c4-b8c7-108cd4642ac8",
@@ -46,7 +46,7 @@ export class Api {
   }
 
   setUser(newName, newJob) {
-    return fetch("https://praktikum.tk/cohort10/users/me", {
+    return fetch("https://nomoreparties.co/cohort10/users/me", {
       method: "PATCH",
       headers: {
         authorization: "18dbabcb-4ed2-42c4-b8c7-108cd4642ac8",
